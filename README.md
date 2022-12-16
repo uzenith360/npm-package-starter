@@ -1,5 +1,5 @@
 # ts-utils
-Github -> NPM package example TypeScript/JavaScript
+Github -> NPM package example with TypeScript/JavaScript
 
 # Sources
 [Andreybleme](https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free/)
