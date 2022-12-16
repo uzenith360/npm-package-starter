@@ -1,0 +1,62 @@
+{
+  "name": "@uzenith360/ts-utils",
+  "version": "0.0.0-development",
+  "description": "Typescript utilities commonly used in apps",
+  "scripts": {
+    "clean": "rm -rf ./lib",
+    "build": "npm run clean && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc -p ./configs/tsconfig.esm.json && mv lib/esm/index.js lib/esm/index.mjs",
+    "build:cjs": "tsc -p ./configs/tsconfig.cjs.json",
+    "prepack": "npm run build",
+    "test": "mocha",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uzenith360/ts-utils.git"
+  },
+  "keywords": [
+    "typescript",
+    "utilities"
+  ],
+  "author": "@uzenith360",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzenith360/ts-utils/issues"
+  },
+  "homepage": "https://github.com/uzenith360/ts-utils#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./lib/esm/types/index.d.ts",
+        "default": "./lib/esm/index.mjs"
+      },
+      "require": {
+        "types": "./lib/cjs/types/index.d.ts",
+        "default": "./lib/cjs/index.js"
+      }
+    }
+  },
+  "types": "./lib/cjs/types/index.d.ts",
+  "main": "./lib/cjs/index.js",
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "husky": "^8.0.2",
+    "mocha": "^10.2.0",
+    "semantic-release": "^19.0.5",
+    "ts-node": "^10.9.1"
+  }, "release": {
+    "branches": ["main"]
+  }
+}
