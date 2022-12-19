@@ -1,5 +1,5 @@
-# ts-utils
-Github -> NPM package example with TypeScript/JavaScript
+# NPM Package Starter
+A TypeScript NPM starter (or example) project to ease setup of NPM packages from your GitHub repo
 
 # Sources
 [Andreybleme](https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free/)
