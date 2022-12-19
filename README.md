@@ -5,3 +5,9 @@ Github -> NPM package example with TypeScript/JavaScript
 [Andreybleme](https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free/)
 [Snyk blog](https://snyk.io/blog/best-practices-create-modern-npm-package/)
 [Dev.to](https://dev.to/kouts/automated-versioning-and-package-publishing-using-github-actions-and-semantic-release-1kce)
+
+# Secrets
+For this setup you will need to create 3 auth tokens and save them as secrets in the github repo's settings, 
+1. NPM token: An Automation-type access token from npm to be used solely in CI environments so that it is able to work around your account’s 2FA. To create one, go to https://www.npmjs.com/settings/<your-npm-account>/tokens. Be sure to select the type “Automation” as this will be used in a CI/CD workflow. i named it NPM_TOKEN
+2. Github repo token: A personal access token from GitHub, to enable github actions access your public repositories. To create one go to https://github.com/<your-name-or-github-organization>/<your-repo-name>/settings/secrets/actions/new and select public_repo scope. I named it GH_Token
+3. Github packages token: A personal access token from GitHub, to enable github actions create packages. To create one go to https://github.com/<your-name-or-github-organization>/<your-repo-name>/settings/secrets/actions/new and select the following scopes: read:packages, write:packages, and delete:packages. I named it GH_Token
