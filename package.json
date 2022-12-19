@@ -1,5 +1,5 @@
 {
-  "name": "@uzenith360/ts-utils",
+  "name": "@uzenith360/utils",
   "version": "0.0.0-development",
   "description": "Typescript utilities commonly used in apps",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uzenith360/ts-utils.git"
+    "url": "https://github.com/uzenith360/utils.git"
   },
   "keywords": [
     "typescript",
@@ -22,9 +22,9 @@
   "author": "@uzenith360",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uzenith360/ts-utils/issues"
+    "url": "https://github.com/uzenith360/utils/issues"
   },
-  "homepage": "https://github.com/uzenith360/ts-utils#readme",
+  "homepage": "https://github.com/uzenith360/utils#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
     "access": "public"
@@ -54,9 +54,11 @@
     "chai": "^4.3.7",
     "husky": "^8.0.2",
     "mocha": "^10.2.0",
-    "semantic-release": "^19.0.5",
     "ts-node": "^10.9.1"
-  }, "release": {
-    "branches": ["main"]
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
