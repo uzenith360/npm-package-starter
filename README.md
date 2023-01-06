@@ -20,8 +20,8 @@ For this setup you will need to create 3 auth tokens and save them as secrets in
 
 I would like to acknowledge the authors of these blogs for providing helpful content on the topic, I encourage you to read too :)
 - [Andreybleme](https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free/)  
-- [Snyk blog](https://snyk.io/blog/best-practices-create-modern-npm-package/)  
-- [Dev.to](https://dev.to/kouts/automated-versioning-and-package-publishing-using-github-actions-and-semantic-release-1kce)
+- [Brian Clark on Snyk blog](https://snyk.io/blog/best-practices-create-modern-npm-package/)  
+- [Giannis Koutsaftakis on Dev.to](https://dev.to/kouts/automated-versioning-and-package-publishing-using-github-actions-and-semantic-release-1kce)
 
 ## Support
 
