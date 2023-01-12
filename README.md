@@ -25,7 +25,7 @@ I would like to acknowledge the authors of these blogs for providing helpful con
 
 ## Support
 
-For support, email wogwugwu.zenith@gmail.com, I will do my best to respond to all issues
+For support, open an issue or email wogwugwu.zenith@gmail.com, I will do my best to respond to all issues
 
 ## Important
 
