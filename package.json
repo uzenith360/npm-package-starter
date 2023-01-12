@@ -1,6 +1,6 @@
 {
   "name": "@uzenith360/utils",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "description": "Typescript utilities commonly used in apps",
   "scripts": {
     "clean": "rm -rf ./lib",
@@ -58,7 +58,8 @@
   },
   "release": {
     "branches": [
-      "main"
+      "main",
+      "master"
     ]
   }
 }

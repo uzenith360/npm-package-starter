@@ -4,6 +4,11 @@ module.exports = {
       {
         name: 'beta',
         prerelease: true
+      },       
+      'master',
+      {
+        name: 'beta',
+        prerelease: true
       }
     ],
     plugins: [
