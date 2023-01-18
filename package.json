@@ -1,7 +1,7 @@
 {
-  "name": "@uzenith360/utils",
+  "name": "@uzenith360/npm-package-starter",
   "version": "0.0.0",
-  "description": "Typescript utilities commonly used in apps",
+  "description": "A TypeScript NPM starter (or example) project to ease setup of NPM packages from your GitHub repo",
   "scripts": {
     "clean": "rm -rf ./lib",
     "build": "npm run clean && npm run build:esm && npm run build:cjs",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uzenith360/utils.git"
+    "url": "https://github.com/uzenith360/npm-package-starter.git"
   },
   "keywords": [
     "typescript",
@@ -22,9 +22,9 @@
   "author": "@uzenith360",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uzenith360/utils/issues"
+    "url": "https://github.com/uzenith360/npm-package-starter/issues"
   },
-  "homepage": "https://github.com/uzenith360/utils#readme",
+  "homepage": "https://github.com/uzenith360/npm-package-starter#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
     "access": "public"
