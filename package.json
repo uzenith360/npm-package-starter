@@ -55,11 +55,5 @@
     "husky": "^8.0.2",
     "mocha": "^10.2.0",
     "ts-node": "^10.9.1"
-  },
-  "release": {
-    "branches": [
-      "main",
-      "master"
-    ]
   }
 }
